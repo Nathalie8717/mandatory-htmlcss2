@@ -1,0 +1,57 @@
+body{
+  background-color: #1E2120;
+  margin: 0;
+}
+@media only screen and (min-width:700px) {
+  body{
+    background-color: #1471AB;
+  }
+
+}
+header{
+  width: 100%;
+  background-color: #1E2120;
+  height: 150px;
+}
+h1{
+  color: #D9642C;
+  font-size: 30px;
+}
+@media(max-width:700px){
+  h1{
+    justify-content: center;
+    display: flex;
+  }
+
+}
+
+nav{
+  display: none;
+
+}
+@media(min-width:700px){
+nav{
+  display: block;
+}
+}
+
+div.movies{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+img{
+  display: flex;
+  flex:auto;
+  width: 150px;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+a{
+  color: #D9642C;
+  text-decoration: none;
+  font-size: 15px;
+  margin-right: 25px;
+  margin-top: 25px;
+}
